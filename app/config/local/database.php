@@ -20,6 +20,8 @@ return array(
 
 	'connections' => array(
 
+	/*	Commenting out this MYSQL code to use only Postgres, but saving it incase we need it later.
+	*/
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
